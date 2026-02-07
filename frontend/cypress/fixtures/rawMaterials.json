@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "code": "RM001",
+    "name": "Raw Material 1",
+    "stockQuantity": 100
+  },
+  {
+    "id": 2,
+    "code": "RM002",
+    "name": "Raw Material 2",
+    "stockQuantity": 50
+  }
+]
+
