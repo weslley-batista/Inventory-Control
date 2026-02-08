@@ -61,7 +61,16 @@ cd backend
 
 O servidor estará disponível em `http://localhost:8080`
 
-### 3. Executar Testes do Back-end
+### 3. Documentação da API (Swagger)
+
+Após iniciar o servidor, a documentação interativa da API estará disponível em:
+
+- **Swagger UI**: `http://localhost:8080/swagger-ui`
+- **OpenAPI JSON**: `http://localhost:8080/openapi`
+
+A documentação inclui todos os endpoints da API com exemplos de requisições e respostas.
+
+### 4. Executar Testes do Back-end
 
 ```bash
 cd backend
@@ -160,6 +169,7 @@ npm run cypress:open
 - Quarkus 3.6.0
 - Hibernate ORM with Panache
 - RESTEasy Reactive
+- SmallRye OpenAPI (Swagger)
 - Oracle JDBC Driver
 - JUnit 5
 - REST Assured
