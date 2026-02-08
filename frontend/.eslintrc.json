@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "overrides": [
+    {
+      "files": ["cypress/**/*.js"],
+      "plugins": [
+        "cypress"
+      ],
+      "globals": {
+        "cy": "readonly",
+        "Cypress": "readonly"
+      },
+      "rules": {
+        "cypress/no-assigning-return-values": "warn",
+        "cypress/no-unnecessary-waiting": "warn",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn"
+      }
+    }
+  ]
+}
+
